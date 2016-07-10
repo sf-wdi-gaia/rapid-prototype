@@ -36,7 +36,8 @@ This is a single-page, web-hosted, app.  Please navigate to [link coming soon](h
 ##Planning
 
 ####Wireframe
-
+<img src="planning/wireframe.png" height="400">
+<img src="planning/wireframemodal.png" height="400">
 
 ---
 ##Technologies Used
