@@ -6,33 +6,33 @@ console.log('Angular is working.');
 // ROUTES //
 ////////////
 
-// app.config(function($routeProvider,$locationProvider){
-//   $routeProvider
-//     .when('/', {
-//       templateUrl: '/templates/wines-index.html',
-//       controller: 'WinesIndexCtrl'
-//     })
-//     .when('/wines/:id', { // the "id" parameter 
-//       templateUrl: 'templates/wines-show.html',
-//       controller: 'WinesShowCtrl'
-//     })
-//   $locationProvider.html5Mode({
-//     enabled: true,
-//     requireBase: false
-//   });
-// })
+app.config(function($routeProvider,$locationProvider){
+  $routeProvider
+    .when('/', {
+      templateUrl: '/templates/trail-list.html',
+      controller: 'TrailsCtrl'
+    })
+    // .when('/wines/:id', { // the "id" parameter 
+    //   templateUrl: 'templates/wines-show.html',
+    //   controller: 'TrailsShowCtrl'
+    // })
+  $locationProvider.html5Mode({
+    enabled: true,
+    requireBase: false
+  });
+})
 
 /////////////////
 // CONTROLLERS //
 /////////////////
 
-// app.controller('WinesIndexCtrl',function($scope,WineService){
-//     // $scope.wine = WineService.query()
-//   WineService.query().query(function(data){
-//     $scope.wines = data;
-//   });
-//   console.log('wines', $scope.wines);
-// })
+app.controller('TrailsCtrl',function($scope){
+// app.controller('TrailsCtrl',function($scope,TrailsService){    // $scope.wine = WineService.query()
+  // WineService.query().query(function(data){
+  //   $scope.wines = data;
+  // });
+  console.log('trails', $scope.trails);
+})
 
 // app.controller('WinesShowCtrl',function($scope,WineService,$routeParams){
 //   $scope.wine = WineService.get($routeParams.id)
