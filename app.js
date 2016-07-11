@@ -35,12 +35,13 @@ app.controller('TrailsCtrl',function($scope){
   $scope.trails = [{profile:"planning/elevation-profile.jpg",name:"Foof",comments:"Comments",votes:"3"}]
   console.log('trails');
 
-  function addTrail(search){
+  $scope.addTrail = function(search){
+    console.log("function")
     // add some default data for testing
-    trailArray = []
     newTrail = {profile:"planning/elevation-profile.jpg",name:search,comments:"Comments",votes:"3"}
-    trailArray.push(newTrail)
-    $scope.trails =  trailArray
+    $scope.trails.push(newTrail)
+    $scope.seach = ''
+    return $scope.trails
   }
 
 })

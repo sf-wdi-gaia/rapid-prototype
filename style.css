@@ -31,6 +31,10 @@ body {
   height: 60px;
 }
 
+.search {
+  width: 94% !important;
+}
+
 .group:before,
 .group:after {
   content: "";
