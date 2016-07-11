@@ -8,6 +8,16 @@ body {
   font-size: 40pt;
 }
 
+.map-row {
+  max-height:350px;
+  overflow:hidden;
+}
+
+.map {
+  width:100%;
+  min-height:100px;
+}
+
 .group:before,
 .group:after {
   content: "";
