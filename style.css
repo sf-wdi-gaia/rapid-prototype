@@ -18,6 +18,19 @@ body {
   min-height:100px;
 }
 
+.traillist {
+  height: 60px;
+}
+
+.trailname {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.profile {
+  height: 60px;
+}
+
 .group:before,
 .group:after {
   content: "";

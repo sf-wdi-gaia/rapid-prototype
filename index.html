@@ -2,43 +2,42 @@
 <html ng-app='trailsLike'>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
   <title>Angular Routing Lab</title>
-  <base href="/">
-  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+  <base href='/'>
+  <link rel='icon' href='images/favicon.png' type='image/x-icon' />
   <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Cabin|Lobster+Two" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Cabin|Lobster+Two' rel='stylesheet'>
 
   <!-- Bootstrap CDN -->
-  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link type='text/css' rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 
   <!-- Bower Components -->
-  <script src="bower_components/angular/angular.min.js"></script>
-  <script src="bower_components/angular-route/angular-route.min.js"></script>
+  <script src='bower_components/angular/angular.min.js'></script>
+  <script src='bower_components/angular-route/angular-route.min.js'></script>
 
   <!-- App JS -->
-  <script src="app.js"></script>
-  <link rel="stylesheet" href="style.css">
+  <script src='app.js'></script>
+  <link rel='stylesheet' href='style.css'>
 </head>
 
 
 <body>
 
-  <div class="col-md-12 banner bg-primary">
+  <div class='col-md-12 banner bg-primary'>
     TrailLike
   </div>
-  <div class="col-md-0 md-offset-1">
-    <input type="search" class="form-control" placeholder="Search for trail name or use map below">
+  <div class='col-md-0 md-offset-1'>
+    <input type='search' class='form-control' ng-model='search' type='text' id='search' autofocus placeholder='Search for trail name or use map below'>
+    <!--   ng-change='addTrail(search)' -->
   </div>
-  <div class="container">
-    <div class="row map-row">
-      <img class="map img-responsive center-block" src="http://images.nationalgeographic.com/wpf/media-content/richmedia/0/473/project/trail-maps/img/glacier-main-610.jpg">
+  <div class='container'>
+    <div class='row map-row'>
+      <img class='map img-responsive center-block' src='http://images.nationalgeographic.com/wpf/media-content/richmedia/0/473/project/trail-maps/img/glacier-main-610.jpg'>
     </div>
-    <div class="row" ng-controller="TrailsCtrl">
-      <div ng-view>  
-
-      </div>
+    <div class='row' ng-controller='TrailsCtrl'>
+      <div class='traillist col-md-12' ng-view></div>
     </div>
   </div>
   

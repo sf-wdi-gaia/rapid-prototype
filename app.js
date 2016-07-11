@@ -31,7 +31,18 @@ app.controller('TrailsCtrl',function($scope){
   // WineService.query().query(function(data){
   //   $scope.wines = data;
   // });
-  console.log('trails', $scope.trails);
+
+  $scope.trails = [{profile:"planning/elevation-profile.jpg",name:"Foof",comments:"Comments",votes:"3"}]
+  console.log('trails');
+
+  function addTrail(search){
+    // add some default data for testing
+    trailArray = []
+    newTrail = {profile:"planning/elevation-profile.jpg",name:search,comments:"Comments",votes:"3"}
+    trailArray.push(newTrail)
+    $scope.trails =  trailArray
+  }
+
 })
 
 // app.controller('WinesShowCtrl',function($scope,WineService,$routeParams){
@@ -42,6 +53,7 @@ app.controller('TrailsCtrl',function($scope){
 ////////////
 // MODELS //
 ////////////
+
 
 // app.factory('WineService', ['$http',function($http){
 
