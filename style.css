@@ -1,3 +1,13 @@
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+.banner {
+  font-family: 'Lobster Two', cursive;
+  height: 60px;
+  font-size: 40pt;
+}
+
 .group:before,
 .group:after {
   content: "";

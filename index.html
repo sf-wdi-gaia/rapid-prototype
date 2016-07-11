@@ -6,6 +6,8 @@
   <title>Angular Routing Lab</title>
   <base href="/">
   <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Cabin|Lobster+Two" rel="stylesheet">
 
   <!-- Bootstrap CDN -->
   <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -19,10 +21,25 @@
   <link rel="stylesheet" href="style.css">
 
 </head>
+
+
 <body>
+  <div class="col-lg-12 banner bg-primary">
+    TrailLike
+  </div>
+    <div class="col-md-0 md-offset-1 search">
+      <input type="search" class="form-control" placeholder="Search for trail name or use map below">
+    </div>
   <div class="container">
+  <div class="row">
+  </div>
+  </div>
+  
+
+
+  </div>
     <div class="row">
-      <div class="col-md-6 col-md-offset-3" ng-view>  <!-- ng-view goes here! -->
+      <div class="col-md-6" ng-view>  <!-- ng-view goes here! -->
         <!-- WINE INFO HERE -->
       </div>
     </div>
