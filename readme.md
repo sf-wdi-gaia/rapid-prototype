@@ -36,6 +36,23 @@ Provide a single-page app with a map and a Firebase backend to allow multiple us
 
 This is a single-page, web-hosted, app.  Please navigate to [link coming soon](http://google.com)
 
+##Task List 
+only partially completed
+
+- [x] basic Angular app
+- [ ] View
+- [ ] Firebase
+- [ ] button to add trail - use OpenTrails API
+- [ ] add trail lis t - use table module
+- [ ] add modal
+- [ ] add comment
+- [ ] add voting
+- [ ] add final to stop voting
+- [ ] add map - use map module
+- [ ] add trails - use OpenTrails
+- [ ] convert trail geometry to elevation profile - use grid module, use loading module
+- [ ] add share button functionality
+
 ##Technologies Used
 
 - HTML/CSS/Javascript
@@ -47,7 +64,6 @@ This is a single-page, web-hosted, app.  Please navigate to [link coming soon](h
 - OuterSpatial API
 - Angular Modules
 - Custom angular directive for parsing JSON
-
 
 ##Wish List
 - overlay the trail profiles on each other
