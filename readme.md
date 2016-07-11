@@ -26,16 +26,15 @@ Provide a single-page app with a map and a Firebase backend to allow multiple us
 - add a comment to the trail item
 - mark a the highest voted trail item as final which closes voting 
 
+##Planning
+
+<details><summary>Wireframes</summary>
+![wireframe](https://ucarecdn.com/8ebec341-bc84-4563-9fcb-a99672b3334b/Wireframe.png =200x) 
+![wireframe modal](https://ucarecdn.com/f0058f43-66fc-44fc-94e4-16b5de665a2a/WireframeModal.png =200x)</details>
+
 ##Install
 
 This is a single-page, web-hosted, app.  Please navigate to [link coming soon](http://google.com)
-
-##Planning
-
-####Wireframe
-![wireframe](https://ucarecdn.com/8ebec341-bc84-4563-9fcb-a99672b3334b/Wireframe.png =200x) 
-![wireframe modal](https://ucarecdn.com/f0058f43-66fc-44fc-94e4-16b5de665a2a/WireframeModal.png =200x)
-
 
 ##Technologies Used
 
