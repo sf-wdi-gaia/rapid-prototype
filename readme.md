@@ -12,11 +12,10 @@ Trying to decide what trail to take on your next hike?  Too hard to figure out h
 ####Goal
 Provide a single-page app with a map and a Firebase backend to allow multiple users to pick several trails of interest, see their elevation profiles, vote on the choices, and allow others to see their choices.
 
----
 ##User Stories
 
 ####A user may:
- * receive an invitation from another user to use the app to vote on a trail, or starts their own trail selection process and invites others to join
+- receive an invitation from another user to use the app to vote on a trail, or starts their own trail selection process and invites others to join
 - navigate to the app and see map and search bar
 - search for a trail by name or click on one shown
 - see the chosen trail added to the list
@@ -27,19 +26,17 @@ Provide a single-page app with a map and a Firebase backend to allow multiple us
 - add a comment to the trail item
 - mark a the highest voted trail item as final which closes voting 
 
----
 ##Install
 
 This is a single-page, web-hosted, app.  Please navigate to [link coming soon](http://google.com)
 
----
 ##Planning
 
 ####Wireframe
-<img src="planning/wireframe.png" height="400">
-<img src="planning/wireframemodal.png" height="400">
+<img src="./planning/wireframe.png" height="400">
+<img src="./planning/wireframemodal.png" height="400">
 
----
+
 ##Technologies Used
 
 - HTML/CSS/Javascript
@@ -51,13 +48,13 @@ This is a single-page, web-hosted, app.  Please navigate to [link coming soon](h
 - Angular Modules
 - Custom angular directive for parsing JSON
 
----
+
 ##Wish List
 - overlay the trail profiles on each other
 - recalculate the trail profiles based on a consistent y-axis among listed trails to enable an "apples-to-apples" comparison
 
 
----
+
 ---
 
 ##Original Assignment
